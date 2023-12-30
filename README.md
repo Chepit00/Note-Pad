@@ -13,6 +13,10 @@
 - [Questions](#questions)
 
 ## Description
+![Screenshot 2023-12-30 131418](https://github.com/Chepit00/Note-Pad/assets/144062349/c8bd436f-5ed1-44de-92f5-f055c35fd713)
+
+![Screenshot 2023-12-30 131432](https://github.com/Chepit00/Note-Pad/assets/144062349/4717708d-0bac-4703-be43-79085c22c214)
+
 
 Note Pad will allow user to write and save notes to organize thoughts and keep track of tasks that need to be complete.
 
