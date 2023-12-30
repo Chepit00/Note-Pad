@@ -1,5 +1,7 @@
 const notes = require("express").Router();
+//importing two functions located in helpers folder 
 const { readFromFile, readAndAppend } = require("../helpers/fsUtils");
+//this is using an older version of uuid 
 const { v4: uuidv4 } = require("uuid");
 
 //this will get notes that are in db and parse the data 
@@ -8,7 +10,7 @@ notes.get("/", (req, res) => {
 });
 
 //this section will check if theres a title and text entered then give it an id and 
-//render a new note to db.
+//appends a new note to db.
 notes.post("/", (req, res) => {
   const { title, text } = req.body;
 
